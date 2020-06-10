@@ -22,9 +22,7 @@ You'll use Node.js and Express to:
 | Project Instructions |  
 |---|
  |**To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.**|
- | Project Instructions |  
-|---|
- |**To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.**|
+
  **1. Initialize your project** 
  *  Open the command line, navigate to your project, and run the npm init command to set up your package.json file. |
   *  Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that references to the dependencies are stored in your package.json file.
