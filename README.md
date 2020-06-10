@@ -11,21 +11,22 @@ You'll use Pug to complete provided templates that utilize the JSON to generate 
 
 You'll use Node.js and Express to:
 
-*Import the required dependencies
-*Link the JSON with the Pug templates
-*Set up routes to handle requests
-*Set up the middleware to utilize static files like CSS
-*Handle errors
-*Set up a server to serve the project
-*After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
+* Import the required dependencies
+* Link the JSON with the Pug templates
+* Set up routes to handle requests
+* Set up the middleware to utilize static files like CSS
+* Handle errors
+* Set up a server to serve the project
+* After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
 
 | Project Instructions |  
 |---|
+
  |**To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.**|
 
  **1. Initialize your project** 
- *  Open the command line, navigate to your project, and run the npm init command to set up your package.json file. |
-  *  Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that references to the dependencies are stored in your package.json file.
+  * Open the command line, navigate to your project, and run the npm init command to set up your package.json file. |
+  * Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that references to the dependencies are stored in your package.json file.
   
  **2. Add your dependencies** 
  * At a minimum, your project will need Express and Pug installed via the command line. 
@@ -88,7 +89,7 @@ To really make this project your own, you should customize the CSS following the
 * The layout of the finished project should match the provided mockups.
 * To really make this project your own, you should customize the CSS following the suggestions in the Extra Credit section at the bottom of this page.
   
-**10. Add good code comments**
+**10. Add good code comments** 
 
 **11. Cross-Browser consistency:**
 * Google Chrome has become the default development browser for most developers. With such a selection of browsers for users to choose from, it's a good idea to get in the habit of testing your projects in all modern browsers.
@@ -101,7 +102,7 @@ To really make this project your own, you should customize the CSS following the
 
 **NOTE: Seeking assistance**
 
-* If you're feeling stuck or having trouble with this project:
+  * If you're feeling stuck or having trouble with this project:
   * Review material in the unit.
   * Practice your Google skills by finding different ways to ask the questions you have, paying close attention to the sort of results you get back depending on how your questions are worded.
   * Reach out to the team on Slack.
