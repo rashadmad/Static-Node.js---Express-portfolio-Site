@@ -1,4 +1,5 @@
 ## Static-Node.js-Express-portfolio-Site-Project-5
+____
 Portfolio website that displays my prior work during the tap program.
 
 So far you've worked with a lot of "client-side" JavaScript. Which is just an industry way of saying JavaScript in the browser. All of the JavaScript you've written for the first five projects in this Techdegree is run right in the browser. Now it's time to continue your journey out of the browser and start writing some powerful "server-side" JavaScript.
@@ -22,7 +23,7 @@ You'll use Node.js and Express to:
 | Project Instructions |  
 |---|
 
- |**To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.**|
+ **To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.**
 
  **1. Initialize your project** 
   * Open the command line, navigate to your project, and run the npm init command to set up your package.json file. |
@@ -57,8 +58,8 @@ You'll use Node.js and Express to:
 **6.Setup your server, routes and middleware**
 * Create an app.js file at the root of your directory.
 * Add variables to require the necessary dependencies. You'll need to require:
-- Express
-- Your data.json file
+  - Express
+  - Your data.json file
 - **Optionally**- the path module which can be used when setting the absolute path in the express.static function.
 * Set up your middleware:
   - set your “view engine” to “pug”
