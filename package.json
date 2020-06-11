@@ -2,7 +2,7 @@
   "name": "Static-Node.js-Express-portfolio-Site-Project-6",
   "version": "1.0.0",
   "description": "Portfolio website that displays my prior work during the tap program.",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
