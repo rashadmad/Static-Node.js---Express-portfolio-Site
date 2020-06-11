@@ -1,5 +1,4 @@
-## Static-Node.js-Express-portfolio-Site-Project-5
-____
+# Static-Node.js-Express-portfolio-Site-Project-5
 Portfolio website that displays my prior work during the tap program.
 
 So far you've worked with a lot of "client-side" JavaScript. Which is just an industry way of saying JavaScript in the browser. All of the JavaScript you've written for the first five projects in this Techdegree is run right in the browser. Now it's time to continue your journey out of the browser and start writing some powerful "server-side" JavaScript.
@@ -20,8 +19,8 @@ You'll use Node.js and Express to:
 * Set up a server to serve the project
 * After building this project, you should have a comfortable working knowledge of Node.js, Express and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a powerful and modern back end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
 
-| Project Instructions |  
-|---|
+## Project Instructions 
+____
 
  **To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.**
 
