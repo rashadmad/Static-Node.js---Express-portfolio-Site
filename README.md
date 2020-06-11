@@ -30,10 +30,10 @@ ____
   
  **2. Add your dependencies** 
  * At a minimum, your project will need Express and Pug installed via the command line. 
- * Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that |references to the dependencies are stored in your package.json file.
+ * Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that references to the dependencies are stored in your package.json file.
   
  **3. Handle files and folders that shouldn't be stored in your repo** 
- * Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that |references to the dependencies are stored in your package.json file.
+ * Don't forget to use the --save flag if you're using a version of npm prior to 5.0, to ensure that references to the dependencies are stored in your package.json file.
   
  **4. Images** 
  * Create an images folder in your directory to store your images.
