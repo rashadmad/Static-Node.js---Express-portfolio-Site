@@ -1,0 +1,25 @@
+{
+  "name": "Static-Node.js-Express-portfolio-Site-Project-6",
+  "version": "1.0.0",
+  "description": "Portfolio website that displays my prior work during the tap program.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashadmad/Static-Node.js-Express-portfolio-Site-Project-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashadmad/Static-Node.js-Express-portfolio-Site-Project-6/issues"
+  },
+  "homepage": "https://github.com/rashadmad/Static-Node.js-Express-portfolio-Site-Project-6#readme"
+}
