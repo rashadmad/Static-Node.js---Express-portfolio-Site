@@ -7,7 +7,7 @@ const port = 3000;
 app.set('view engine', 'pug');
 
 app.get('/home', (req, res) => {
-    res.send("<h1>I Love Treehouse!</h1>");
-  });
+    res.send('afsgsdfgs');
+});
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`You app is up and running on http://localhost:${port}`))
