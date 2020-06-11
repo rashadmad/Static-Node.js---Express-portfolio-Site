@@ -127,3 +127,20 @@ To get an "exceeds" rating, complete all of the steps below:
     * box or text shadows
     * transitions or animations
     * add a logo 
+
+## Dependencies
+____
+After cloning to your machine and install npm.
+~~~
+npm install 
+~~~
+
+This project uses express.
+~~~
+npm install express --save
+~~~
+
+This project uses pug.
+~~~ 
+npm install pug
+~~~ 
