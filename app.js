@@ -6,7 +6,8 @@ const port = 3000;
 //tell the app to use pug
 app.set('view engine', 'pug');
 
-app.get('/home', (req, res) => {
+//sets up the home route
+app.get('/', (req, res) => {
     res.send('afsgsdfgs');
 });
 
