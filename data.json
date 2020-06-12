@@ -1,9 +1,15 @@
 {
     "projects": [
-      { "id":"John", "name":30, "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
-      { "id":"John", "name":30, "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
-      { "id":"John", "name":30, "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
-      { "id":"John", "name":30, "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
-      { "id":"John", "name":30, "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null }
+      { "id": 0, "project_name":"Quote Generator", "description":"project that displays random famous quotes from many African American Leaders.", "technologies":["CSS","Vanilla JavaScript","HTML"], "live_link":"https://rashadmad.github.io/Treehouse-project-quote-generator-unit-01/" , "github_link":"https://github.com/rashadmad/Treehouse-project-quote-generator-unit-01" , "image_urls":null },
+      { "id": 1, "project_name":"Pagination Project", "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 2, "project_name":"Phrase Hunter", "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 3, "project_name":"Random User api Project", "description":null, "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 4, "project_name":"Flight Site", "description":"Playground project for a design challenge. Advanced SASS, responsive design and attention to UX.", "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 5, "project_name":"Classic Arcade Game Clone", "description":"Frogger like game. Uses object oriented JavaScript.", "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 6, "project_name":"Memory Game", "description":"Card matching game that shows more advanced knowledge of JavaScript.", "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 8, "project_name":"Restaurant Reviews App", "description":"Restaurant reviews app that is a11y,responsive and assesible offline", "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 9, "project_name":"Restaurant Reviews App", "description":"Restaurant reviews app that is a11y,responsive and assesible offline", "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 10, "project_name":"Restaurant Reviews App", "description":"Restaurant reviews app that is a11y,responsive and assesible offline", "technologies":null, "live_link":null , "github_link":null , "image_urls":null },
+      { "id": 11, "project_name":"Interactive Form", "description":"Restaurant reviews app that is a11y,responsive and assessable offline", "technologies":["Vanilla JavaScript", "sass", "npm"], "live_link":"https://rashadmad.github.io/mws-restaurant-stage-1/" , "github_link":"https://github.com/rashadmad/mws-restaurant-stage-1" , "image_urls":null }
     ]
 }
