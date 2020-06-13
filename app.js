@@ -21,7 +21,7 @@ app.get('/about', (req, res) => {
 app.get('/project', (req, res) => {
     res.locals.name = "Rashad's project";
     res.locals.Description = "This is Rashad's project it is awesome";
-    res.locals.Description = ["HTML", "CSS","JavaScript"];
+    res.locals.items = ["HTML", "CSS","JavaScript"];
     res.render('project');
 });
 
