@@ -9,12 +9,12 @@ app.set('view engine', 'pug');
 
 //sets up the home route
 app.get('/', (req, res) => {
-    res.send('afsgsdfgs');
+    res.render('index');
 });
 
 //sets up a route for the about page
 app.get('/about', (req, res) => {
-    res.render('about',)
+    res.render('about');
 });
 
-app.listen(port, () => console.log(`You app is up and running on http://localhost:${port}` + data))
+app.listen(port, () => console.log(`You app is up and running on http://localhost:${port}` + " " + data))
