@@ -17,4 +17,12 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+//sets up a route for the project page and adds dynamic data to it
+app.get('/project', (req, res) => {
+    res.locals.name = "Rashad's project";
+    res.locals.Description = "This is Rashad's project it is awesome";
+    res.locals.Description = ["HTML", "CSS","JavaScript"];
+    res.render('project');
+});
+
 app.listen(port, () => console.log(`You app is up and running on http://localhost:${port}` + " " + data))
