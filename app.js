@@ -12,4 +12,9 @@ app.get('/', (req, res) => {
     res.send('afsgsdfgs');
 });
 
+//sets up a route for the about page
+app.get('/about', (req, res) => {
+    res.render('about',)
+});
+
 app.listen(port, () => console.log(`You app is up and running on http://localhost:${port}` + data))
