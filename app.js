@@ -2,7 +2,13 @@ const express = require('express');
 const bodyParser = require('body-Parser');
 const app = express();
 const port = 3000;
-const data = require('./data.json') 
+const data = require('./data.json');
+
+app.use(express.static('public')); 
+app.use(express.static('images'));
+
+//import image files
+app.use("/images", express.static("images")); 
 
 //tell the app to use pug
 app.set('view engine', 'pug');
@@ -19,9 +25,12 @@ app.get('/about', (req, res) => {
 
 //sets up a route for the project page and adds dynamic data to it
 app.get('/project', (req, res) => {
-    res.locals.name = "Rashad's project";
-    res.locals.Description = "This is Rashad's project it is awesome";
-    res.locals.items = ["HTML", "CSS","JavaScript"];
+    res.locals.name = data.projects[0].project_name;
+    res.locals.description = data.projects[0].project_description;
+    res.locals.items = data.projects[0].technologies;
+    res.locals.imageA = data.projects[0].image_urls[0];
+    res.locals.imageB = data.projects[0].image_urls[1];
+    res.locals.imageC = data.projects[0].image_urls[0];
     res.render('project');
 });
 
