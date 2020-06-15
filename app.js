@@ -4,7 +4,8 @@ const app = express();
 const port = 3000;
 const data = require('./data.json');
 
-app.use(express.static('public')); 
+//add all elements from the public dir
+app.use('/static', express.static('public'));
 app.use(express.static('images'));
 
 //import image files
