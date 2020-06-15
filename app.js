@@ -13,12 +13,6 @@ app.use("/images", express.static("images"));
 //tell the app to use pug
 app.set('view engine', 'pug');
 
-//error handler
-app.use((err, req, res, next) => {
-    res.locals.errors = err;
-    res.render('error');
-})
-
 //sets up the home route
 app.get('/', (req, res, next) => {
     res.render('index');
@@ -39,5 +33,12 @@ app.get('/project', (req, res) => {
     res.locals.imageC = data.projects[0].image_urls[0];
     res.render('project');
 });
+
+//error handler
+app.use((err, req, res, next) => {
+    res.locals.errors = err;
+    res.status(500)
+    res.render('error');
+})
 
 app.listen(port, () => console.log(`You app is up and running on http://localhost:${port}` + " " + data))
