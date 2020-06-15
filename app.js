@@ -36,7 +36,7 @@ app.get('/project', (req, res) => {
 
 //error handler
 app.use((err, req, res, next) => {
-    res.locals.errors = err;
+    res.locals.error = err;
     res.status(500)
     res.render('error');
 })
