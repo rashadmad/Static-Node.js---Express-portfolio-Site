@@ -1,3 +1,0 @@
-const chooseProject(projectId) => {
-
-} 
