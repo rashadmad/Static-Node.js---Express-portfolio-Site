@@ -14,15 +14,15 @@ block content
         p.lead.text-light= Description
 
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6= Technologies
-
+        h6 Technologies
+        
         //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
         ul
           each item in items
             li= item
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href='') Live Demo
-        a.button.expanded(href='') GitHub Repo
+        a.button.expanded(href=liveUrl) Live Demo
+        a.button.expanded(href=githubUrl) GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
     img.image(src= imageA)
