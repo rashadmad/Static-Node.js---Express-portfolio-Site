@@ -116,6 +116,11 @@ a:hover{
     margin-bottom: 5px;
   }
 
+  .thumbnail{
+    width: 550px;
+    height: 550px;
+  }  
+
   .portfolio-index a{
     color: #222;
   }

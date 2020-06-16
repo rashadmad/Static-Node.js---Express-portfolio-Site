@@ -16,6 +16,7 @@ app.set('view engine', 'pug');
 
 //sets up the home route
 app.get('/', (req, res, next) => {
+    res.locals.projects = data.projects;
     res.render('index');
 });
 
