@@ -14,27 +14,14 @@ app.use("/images", express.static("images"));
 //tell the app to use pug
 app.set('view engine', 'pug');
 
-//sets up the home route
-app.get('/', (req, res, next) => {
-    res.locals.projects = data.projects;
-    res.render('index');
-});
+//brings in my routes
+const mainRoutes = require('./routes');
+const projectRoutes = require('./routes/project');
+const aboutRoutes = require('./routes/about');
 
-//sets up a route for the about page
-app.get('/about', (req, res) => {
-    res.render('about');
-});
-
-//sets up a route for the project page and adds dynamic data to it
-app.get('/project', (req, res) => {
-    res.locals.name = data.projects[0].project_name;
-    res.locals.description = data.projects[0].project_description;
-    res.locals.items = data.projects[0].technologies;
-    res.locals.imageA = data.projects[0].image_urls[0];
-    res.locals.imageB = data.projects[0].image_urls[1];
-    res.locals.imageC = data.projects[0].image_urls[0];
-    res.render('project');
-});
+app.use(mainRoutes);
+app.use('/project', projectRoutes);
+app.use('/about', aboutRoutes);
 
 //404 error 
 app.use((req, res, next) => {
