@@ -5,17 +5,18 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Rashad Madison 
+      h1 Here is my most recent work. 
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        |Fullstack JavaScript developer & Designer
+        |Here are some examples of applications, wireframes, designs and mockups I have done. Some for clients and others as experiments to strengthen my skills.
+
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
       each project in projects
         .cell
-          a(href='#')
+          a(href='/project')
             img.thumbnail(src= project.image_urls[0]) 
             h5= project.project_name
                 //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
