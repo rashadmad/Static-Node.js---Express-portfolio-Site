@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const data = require('../data.json');
+const { projects } = require('../data.json');
 
 //sets up the home route
 router.get('/', (req, res, next) => {
-    res.locals.projects = data.projects;
+    res.locals.projects = projects;
     res.render('index');
 });
 
