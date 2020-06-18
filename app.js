@@ -29,7 +29,7 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 //404 error 
 app.use((req, res, next) => {
-    const err = new Error('Not found');
+    const err = new Error('Sorry page not found');
     err.status = 404;
     next(err);
 });
