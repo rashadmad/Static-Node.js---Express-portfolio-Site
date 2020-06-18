@@ -14,14 +14,18 @@ app.use("/images", express.static("images"));
 //tell the app to use pug
 app.set('view engine', 'pug');
 
+const favicon = require('serve-favicon')
+
 //brings in my routes
 const mainRoutes = require('./routes');
 const projectRoutes = require('./routes/project');
 const aboutRoutes = require('./routes/about');
+const path = require('path')
 
 app.use(mainRoutes);
 app.use('/project', projectRoutes);
 app.use('/about', aboutRoutes);
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 //404 error 
 app.use((req, res, next) => {
