@@ -134,7 +134,10 @@ After cloning to your machine and install npm.
 ~~~
 npm install 
 ~~~
-
+I use nodemone and with a quick `npm run start` command you can get up and running so make sure you install nodemon
+~~~
+npm install nodemon -D 
+~~~
 This project uses express.
 ~~~
 npm install express --save
