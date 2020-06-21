@@ -31,7 +31,9 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use((req, res, next) => {
     const err = new Error('Sorry page not found');
     err.status = 404;
-    console.log('Sorry page not found');
+        if (err){
+            console.log('Sorry page not found');
+        }
     next(err);
 });
 

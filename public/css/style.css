@@ -102,6 +102,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
+   color: #87CEEB;
    font-family: 'Oswald', sans-serif;
    font-weight: 600;
    font-size: 13px;
@@ -171,11 +172,8 @@ a:hover{
     line-height: 25px;
 }
 
-.grid-container, .portfolio-intro{
+.top-container{
   background-color: white;
-  background-image: url("background-image.png");;
+  background-image: url("/images/background_image.png");
+  background-repeat: no-repeat; 
 }
-
-
-
-
