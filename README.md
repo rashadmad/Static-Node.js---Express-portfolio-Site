@@ -128,8 +128,9 @@ To get an "exceeds" rating, complete all of the steps below:
     * transitions or animations
     * add a logo 
 
-## A note on my styling
+## A note on my extra credit changes
 I made a few color changes and made the project picture round. I attempted to make the site go along with my brand.
+I styled rounded project images. I also added cool background images  and color change that go with my branding.
 
 ## Dependencies
 ____
