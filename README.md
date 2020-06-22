@@ -128,6 +128,9 @@ To get an "exceeds" rating, complete all of the steps below:
     * transitions or animations
     * add a logo 
 
+## A note on my styling
+I made a few color changes and made the project picture round. I attempted to make the site go along with my brand.
+
 ## Dependencies
 ____
 After cloning to your machine and install npm.
